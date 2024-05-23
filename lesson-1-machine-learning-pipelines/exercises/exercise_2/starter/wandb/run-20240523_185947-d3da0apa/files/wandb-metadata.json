@@ -1,0 +1,117 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-debian-bookworm-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2024-05-23T22:59:47.811639",
+    "startedAt": "2024-05-23T22:59:47.356507",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv",
+        "--artifact_name",
+        "iris",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "This data sets consists of 3 different types of irises\u2019 (Setosa, Versicolour, and Virginica) petal and sepal length"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePathLocal": "download_data.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/download_data.py",
+    "git": {
+        "remote": "https://github.com/jg498/MLproject",
+        "commit": "871d4ebafb2345913d204ff8edc4b818a6c9e70d"
+    },
+    "email": "joelgalucard@gmail.com",
+    "root": "/home/joelg/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "DESKTOP-C8NETJI",
+    "username": "joelg",
+    "executable": "/home/joelg/miniconda3/envs/mlflow-2b63b0f37413de3fe9ca3c9d11332046bea52262/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0070000000005,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 7.214626312255859
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.575428009033203
+    }
+}

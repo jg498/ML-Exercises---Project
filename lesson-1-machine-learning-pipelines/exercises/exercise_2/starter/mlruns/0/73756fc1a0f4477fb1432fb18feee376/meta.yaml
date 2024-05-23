@@ -1,0 +1,15 @@
+artifact_uri: file:///home/joelg/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/73756fc1a0f4477fb1432fb18feee376/artifacts
+end_time: 1716505198733
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 73756fc1a0f4477fb1432fb18feee376
+run_name: painted-toad-95
+run_uuid: 73756fc1a0f4477fb1432fb18feee376
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716505150573
+status: 3
+tags: []
+user_id: joelg

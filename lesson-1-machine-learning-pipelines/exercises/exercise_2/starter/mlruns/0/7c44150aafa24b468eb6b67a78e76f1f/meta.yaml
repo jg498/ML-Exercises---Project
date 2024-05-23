@@ -1,0 +1,15 @@
+artifact_uri: file:///home/joelg/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/7c44150aafa24b468eb6b67a78e76f1f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c44150aafa24b468eb6b67a78e76f1f
+run_name: legendary-lynx-816
+run_uuid: 7c44150aafa24b468eb6b67a78e76f1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716505076723
+status: 1
+tags: []
+user_id: joelg
