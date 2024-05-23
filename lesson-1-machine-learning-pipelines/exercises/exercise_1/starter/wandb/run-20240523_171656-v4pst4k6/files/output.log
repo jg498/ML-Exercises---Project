@@ -1,0 +1,8 @@
+2024-05-23 17:16:59,535 Getting artifact
+2024-05-23 17:16:59,535 Artifact content:
+Traceback (most recent call last):
+  File "use_artifact.py", line 50, in <module>
+    go(args)
+  File "use_artifact.py", line 22, in go
+    filepath = artifact.file()
+NameError: name 'artifact' is not defined

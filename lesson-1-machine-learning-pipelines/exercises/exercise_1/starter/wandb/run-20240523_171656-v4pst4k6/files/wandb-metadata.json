@@ -1,0 +1,111 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-05-23T21:16:57.352626",
+    "startedAt": "2024-05-23T21:16:56.938204",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--artifact_name",
+        "exercise_1/zen_of_python:v1"
+    ],
+    "state": "running",
+    "program": "use_artifact.py",
+    "codePathLocal": "use_artifact.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py",
+    "git": {
+        "remote": "https://github.com/jg498/MLproject",
+        "commit": "f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827"
+    },
+    "email": "joelgalucard@gmail.com",
+    "root": "/home/joelg/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "DESKTOP-C8NETJI",
+    "username": "joelg",
+    "executable": "/home/joelg/miniconda3/envs/udacity/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0070000000005,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2592.007,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 6.708900451660156
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.575428009033203
+    }
+}
