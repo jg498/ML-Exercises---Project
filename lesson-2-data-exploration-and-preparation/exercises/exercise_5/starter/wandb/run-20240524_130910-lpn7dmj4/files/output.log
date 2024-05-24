@@ -1,0 +1,10 @@
+2024-05-24 13:09:10,952 Downloading artifact
+2024-05-24 13:09:11,648 Dropping duplicates
+2024-05-24 13:09:11,680 Fixing missing values
+2024-05-24 13:09:11,997 Logging artifact
+Traceback (most recent call last):
+  File "run.py", line 80, in <module>
+    go(args)
+  File "run.py", line 47, in go
+    os.remove(filename)
+NameError: name 'os' is not defined
