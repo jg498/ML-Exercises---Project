@@ -1,0 +1,73 @@
+diff --git a/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/conda.yml b/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/conda.yml
+index c4ae4af..212dd54 100644
+--- a/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/conda.yml
++++ b/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/conda.yml
+@@ -9,4 +9,5 @@ dependencies:
+   - mlflow=1.14.1
+   - hydra-core=1.0.6
+   - pip:
+-      - wandb==0.10.21
++      - wandb == 0.13.2
++      - protobuf==3.20.*
+diff --git a/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/download_data/conda.yml b/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/download_data/conda.yml
+index 42cd9c8..645910f 100644
+--- a/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/download_data/conda.yml
++++ b/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/download_data/conda.yml
+@@ -6,4 +6,5 @@ dependencies:
+   - requests=2.24.0
+   - pip=20.3.3
+   - pip:
+-      - wandb==0.10.21
+\ No newline at end of file
++      - wandb == 0.13.2
++      - protobuf==3.20.*
+\ No newline at end of file
+diff --git a/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/process_data/conda.yml b/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/process_data/conda.yml
+index 09811f0..c424b3f 100644
+--- a/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/process_data/conda.yml
++++ b/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/process_data/conda.yml
+@@ -11,4 +11,5 @@ dependencies:
+   - matplotlib==3.2.2
+   - pillow=8.1.2
+   - pip:
+-      - wandb==0.10.21
+\ No newline at end of file
++      - wandb == 0.13.2
++      - protobuf==3.20.*
+\ No newline at end of file
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
+index e69de29..8e0d27d 100644
+--- a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/MLproject
+@@ -0,0 +1,7 @@
++name: download_data
++conda_env: conda.yml
++
++entry_points:
++  main:
++    command: >-
++      jupyter notebook
+diff --git a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/conda.yml b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/conda.yml
+index f216511..9bf9541 100644
+--- a/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/conda.yml
++++ b/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/conda.yml
+@@ -3,11 +3,15 @@ channels:
+   - conda-forge
+   - defaults
+ dependencies:
+-  - jupyterlab=3.0.12
++  - python=3.7
++  - notebook
+   - seaborn=0.11.1
+   - pandas=1.2.3
++  - numpy=1.18.5
+   - pip=20.3.3
+   - pandas-profiling=2.11.0
++  - Jinja2=3.0.3
+   - pyarrow=2.0
+   - pip:
+-      - wandb==0.10.21
+\ No newline at end of file
++      - wandb==0.10.21
++      - protobuf==3.20.3
+\ No newline at end of file
