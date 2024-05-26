@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-debian-bookworm-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2024-05-26T02:41:36.191266",
+    "startedAt": "2024-05-26T02:41:35.442095",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "exercise_6/data_train.csv:latest",
+        "--model_config",
+        "/home/joelg/cd0581-building-a-reproducible-model-workflow-exercises/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/outputs/2024-05-25/22-41-33/random_forest_config.json"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/jg498/MLproject",
+        "commit": "7f30b3b9455bcc3b937265e7620a41aa35051bd6"
+    },
+    "email": "joelgalucard@gmail.com",
+    "root": "/home/joelg/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "DESKTOP-C8NETJI",
+    "username": "joelg",
+    "executable": "/home/joelg/miniconda3/envs/mlflow-3a414ed67bb0671bea2cf3b816b5d97bf7359ccc/bin/python"
+}
