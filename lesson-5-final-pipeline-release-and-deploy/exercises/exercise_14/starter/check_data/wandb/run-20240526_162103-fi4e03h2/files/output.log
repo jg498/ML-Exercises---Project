@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform linux -- Python 3.7.12, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /home/joelg/miniconda3/envs/mlflow-62f54b2bffa3aa121bb1e1b84d496ed169958be8/bin/python
+cachedir: .pytest_cache
+rootdir: /home/joelg/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/check_data
+collecting ... collected 4 items
+
+test_data.py::test_column_presence_and_type PASSED
+test_data.py::test_class_names PASSED
+test_data.py::test_column_ranges PASSED
+test_data.py::test_kolmogorov_smirnov PASSED
+
+=============================== warnings summary ===============================
+../../../../../../miniconda3/envs/mlflow-62f54b2bffa3aa121bb1e1b84d496ed169958be8/lib/python3.7/site-packages/wandb/vendor/watchdog/utils/bricks.py:175
+  /home/joelg/miniconda3/envs/mlflow-62f54b2bffa3aa121bb1e1b84d496ed169958be8/lib/python3.7/site-packages/wandb/vendor/watchdog/utils/bricks.py:175: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+    class OrderedSet(collections.MutableSet):
+
+test_data.py::test_column_presence_and_type
+  /home/joelg/miniconda3/envs/mlflow-62f54b2bffa3aa121bb1e1b84d496ed169958be8/lib/python3.7/site-packages/pluggy/callers.py:187: DtypeWarning: Columns (16) have mixed types.Specify dtype option on import or set low_memory=False.
+    res = hook_impl.function(*args)
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 4 passed, 2 warnings in 1.96s =========================

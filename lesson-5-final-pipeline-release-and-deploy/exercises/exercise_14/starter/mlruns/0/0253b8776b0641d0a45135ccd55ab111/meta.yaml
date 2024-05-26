@@ -1,0 +1,15 @@
+artifact_uri: file:///home/joelg/cd0581-building-a-reproducible-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/mlruns/0/0253b8776b0641d0a45135ccd55ab111/artifacts
+end_time: 1716754655976
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 0253b8776b0641d0a45135ccd55ab111
+run_uuid: 0253b8776b0641d0a45135ccd55ab111
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716754624059
+status: 3
+tags: []
+user_id: joelg
