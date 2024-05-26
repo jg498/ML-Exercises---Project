@@ -1,0 +1,15 @@
+artifact_uri: file:///home/joelg/cd0581-building-a-reproducible-model-workflow-exercises/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/5b8410cf58ff4702afce26becf96fb3f/artifacts
+end_time: 1716685500872
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 5b8410cf58ff4702afce26becf96fb3f
+run_uuid: 5b8410cf58ff4702afce26becf96fb3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716685463320
+status: 3
+tags: []
+user_id: joelg

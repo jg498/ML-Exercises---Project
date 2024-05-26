@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-debian-bookworm-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2024-05-26T01:04:55.464781",
+    "startedAt": "2024-05-26T01:04:54.436653",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        "."
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/jg498/MLproject",
+        "commit": "0c47967325c74465d255ecaa45b069f8681b0f79"
+    },
+    "email": "joelgalucard@gmail.com",
+    "root": "/home/joelg/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "DESKTOP-C8NETJI",
+    "username": "joelg",
+    "executable": "/home/joelg/miniconda3/envs/mlflow-8c4a15c5f1648208b6dbb9145458daf8a8c7aafd/bin/python"
+}
